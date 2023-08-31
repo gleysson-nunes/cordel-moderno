@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 45px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 87px;
+}
+
+header h1 {
+    font-family: 'Passion One', cursive;
+    font-size: 10vw;
+    font-weight: normal;
+}
+
+#para-cabecalho {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+#a1 {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+#a1:hover {
+    text-decoration: underline;
+}
+
+.paragrafos-iguais {
+    margin: 4vh 4vw;
+    font-family: Sriracha, cursive;
+    font-size: 3.5vw;
+    line-height: 3.5vw;
+    min-width: 50vw;       
+}
+
+.container1 {
+    margin-top: 20vh;
+    background: #9ad444 url(./imagens/foto1.jpg) right center / cover no-repeat fixed;
+    color: white;
+    max-height: 100vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.555) inset; 
+}
+
+.segundo-paragrafo {
+    background-color: #01070194;
+    width: 41.5vw;
+    max-height: 100vh;
+    margin: 5vh 0 0 3.5vw;
+    text-indent: -3.5vw; 
+}
+
+.terceiro-paragrafo {
+    margin-top: 14vh;
+    margin-bottom: 25vh;    
+}
+
+.container2 {
+    margin-top: 20vh;
+    background: #c24343 url(./imagens/foto2.jpg) right center / cover no-repeat fixed;
+    color: white;
+    max-height: 100vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.555) inset;    
+}
+
+.quinto-paragrafo {
+    background-color: #03030381;
+    width: 42.3vw;
+    max-height: 80vh;
+    margin: 5vh 0 0vh 3.5vw;
+    text-indent: -3.5vw;
+}
+
+.sexto-paragrafo {
+    margin-top: 14vh;
+}
+
+.ultimo-paragrafo {
+    margin-top: 20vh;
+    padding-bottom: 25vh; 
+}
+
+footer {
+    background-color: black;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#a2 {
+    color: white;
+    text-decoration: none;
+}
+
+#a2:hover {
+    text-decoration: underline;
+}
